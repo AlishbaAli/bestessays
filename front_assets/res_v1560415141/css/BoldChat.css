@@ -1,0 +1,91 @@
+.bcFloat{
+	position: fixed !important;
+	top: auto !important;
+	left: auto !important;
+	bottom: 0 !important;
+	right: 12px !important;
+	transform: scale(1) !important;
+	min-width: auto;
+}
+.bcFloat img {
+	-webkit-filter: drop-shadow( 1px 1px 2px rgba(0,0,0,.6));
+	filter: drop-shadow( 1px 1px 2px rgba(0,0,0,.6));
+}
+.bt_chat_like_form__btn[type="submit"] {
+	background: #3ead32;
+}
+
+@media only screen and (max-device-width: 768px) {
+
+    #bc-chat-container {
+        position: fixed !important;
+        top: auto !important;
+        left: auto !important;
+        right: 0 !important;
+        bottom: 0 !important;
+    }
+
+}
+
+@media only screen and (max-device-width: 736px) {
+
+	.bc-wrap > .bcFloat {
+		position: static !important;
+	}
+	.bcFloat img {
+		display: none;
+	}
+	.bcFloat a {
+		width: 100%;
+		height: 100%;
+		display: block;
+	}
+	.bcFloat div {
+		height: 100% !important;
+	}
+    .bcFloat,
+    div.bc-minimize-state{
+        display: block;
+        width: 100px !important;
+        height: 100px !important;
+        right: 0px !important;
+        -webkit-background-size: contain !important;
+        background-size: contain !important;
+    }
+	.bcFloat,
+    div.bc-minimize-state-ended,
+	div.bc-minimize-state-idle {
+		background: url('../../res/img/chat/chat_ico--mobile_2.png') no-repeat right;
+	}
+	div.bc-minimize-state-message {
+        /*bottom: -1px;*/
+		background: url('../../res/img/chat/chat_ico_message--mobile_2.png') no-repeat right;
+	}
+	.bc-minimize-state-message:after {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -4px;
+		margin-left: -13px;
+		width: 24px;
+		height: 8px;
+		background: url(../../res/img/chat/gif-only-dots_2.gif) no-repeat;
+		background-size: contain;
+	}
+	.vip .bcFloat,
+	.vip .bc-minimize-state.bc-minimize-state-idle {
+		background-image: url('../../res/img/chat/vip_only/bc_main--mob.png');
+	}
+
+	/*=== Invate ===*/
+	div.bt_chat_like_form__wrap {
+		padding: 0;
+		right: 0px;
+	}
+    div.triggerInviteChat{
+        width: 100px;
+        height: 100px;
+    }
+}

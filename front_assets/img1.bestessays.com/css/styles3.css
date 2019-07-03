@@ -1,0 +1,58 @@
+                                                                                                                                                                                                                    
+.blockWriters .shell h6{
+    color:red!important;
+}     
+.blockWriters{
+ 	color:green;
+  	
+}                
+
+
+/* Programming */
+.top_phones.color_change {height: 40px; position: absolute; right: 7px; top: 90px;  width: 412px;  z-index: 100; background:url(../images/header_phones.gif) no-repeat;}
+.top_phones.color_change .more_phones p {top:31px;}
+.girl.programming { background:url(../images/left_part_header.gif) no-repeat scroll 0 0 transparent; height: 164px; left: 0; position: absolute; top:48px; width: 230px;}
+.submenu ul li {background: url(../images/sm_li.gif) repeat-x scroll center bottom transparent;}
+.left_block.programming{padding-top: 55px;}
+.testimonials_central{padding:5px 0px 5px 80px; background:url(../images/hand_img.png) no-repeat left center; color:#514d48; line-height:18px; margin-bottom:15px;}
+.title_testimonials{font-size:11px; color:#999999; text-transform:uppercase;}
+/* .table_pack th.price_title2{background:url(http://img1.bestessays.com/images/central_price_th.png) repeat-x; font-weight:bold; text-shadow:#d13705 0px 1px; text-transform:uppercase;} */
+.popular_ico{width:57px; height:47px; background:url(../images/most_popular_img.png) no-repeat; position:absolute; top:-37px; left:243px; z-index:50;}
+.writer_levels{border:1px #ecebf8 solid; border-top:0px; border-radius:0px 0px 3px 3px; -moz-border-radius:0px 0px 3px 3px; -webkit-border-radius:0px 0px 3px 3px; line-height:18px;}
+.writer_levels th{height:40px; background:url(../images/bkg_th.gif) repeat-x #7167b9; text-align:center; font:normal 14px Arial, Helvetica, sans-serif; color:#ffffff; border-right:2px #ffffff solid;}
+.writer_levels th.central_level{background:url(../images/central_price_th.png) repeat-x #ed5625; font-weight:bold; text-transform:uppercase;text-shadow:#d13705 0px 1px;}
+.writer_levels td{vertical-align:top; border-right:2px #ffffff solid; padding-top:10px;}
+.writer_levels ul{margin:0px; padding:0px; list-style-type:none;}
+.writer_levels td.central_level{background:#ffedd1;}
+.writer_levels th.central_level + th, .writer_levels td.central_level + td{border-right:0px;}
+.writer_levels ul li{background:url(../images/purple_arr.gif) no-repeat 5px 6px; padding:0px 0px 5px 15px;}
+.writer_levels td.central_level ul li{background:url(../images/red_arr.gif) no-repeat 5px 4px;}
+.progr_first_p{font-style:italic; color:#5757a7; font-size:14px;}
+.profile_wr_container{ color:#333333; line-height:18px; margin-bottom:20px;}
+.writer_profile{ background:#fcfcfc; border-style:solid; border-width:1px; border-color:#e2e2e2 #f7f7f7 #ffffff #f7f7f7; width:220px; float:left; margin:0px 0px 15px 0px;}
+.foto_rating_wr{padding:5px 0px 5px 10px; border-bottom:1px #d5d5d5 solid;}
+.foto_rating_wr > img{float:left; border:4px #cfcfcf solid; margin-right:15px;}
+.foto_rating_wr span{font-weight:bold; line-height:18px;}
+.wr_data{background:#ededed; border-top:1px #f6f6f6 solid; border-bottom:1px #d5d5d5 solid; padding:5px;}
+.sample_main{border-top:1px #d5d5d5 solid; border-bottom:1px #ededed solid; margin:15px 0px 35px 0px;}
+.sample_main > div{border-top:1px #ededed solid; border-bottom:1px #d5d5d5 solid; padding:5px 0px;}
+.sample_info{background:url(../images/sample_paper.png) no-repeat 20px center #d8eaf3; border-top:1px #c2d2da solid; padding:17px 0px 17px 155px; border-radius:4px 4px 4px 4px; -moz-border-radius:4px 4px 4px 4px; -webkit-border-radius:4px 4px 4px 4px; position:relative; behavior:url(http://www.bestessays.com/styles/PIE.htc);}
+.sample_info a{display:block; font-size:18px; font-weight:bold; color:#357ac2; text-shadow:#ffffff 0px 1px; margin-bottom:15px;}
+.sample_info span{padding:0px 15px 0px 0px; line-height:16px;}  
+
+/*css for Banner_get_money*/
+.get_money{ text-indent:-9999px; display:inline-block; width:215px; margin-left:10px; height:125px; background:url(../images/get_money_sprite.png) no-repeat; margin:10px 0px;}
+* + html .get_money{ display:block;}
+.get_money:hover{ background-position:0px -125px;}
+.get_money:active{ background-position:0px -250px;}
+
+
+ /*affiliate*/
+.aff_program{ color:#444444; line-height:18px; }
+.accentuated{ font-weight:bold; margin:10px 0px; color:#1a1a1a; font-size:14px;}
+.aff_title{ font-size:18px; line-height:22px; color:#5353a6; margin:10px 0px;}
+.aff_program p{ padding:0px!important; margin:5px 0px 12px 0px;}
+.aff_program a{font-weight:bold;}
+.aff_program ul{ margin:10px 0px 7px 0px; padding:0px; list-style-type:none;}
+.aff_program ul li{ padding:0px 0px 5px 20px; background:url(../images/black_arr.gif) no-repeat 0px 4px; font-weight:bold; }
+.aff_program strong, .aff_program ul li span { color:#222222;}                                               
