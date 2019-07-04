@@ -133,6 +133,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <a href="<?php echo base_url() ?>extras.html"><span>Extras</span></a>
 
         </li>
+        <li class="hidden-sm hidden-md hidden-lg">
             <a href="<?php echo base_url() ?>our-services.html">More</a>
         </li>
   </ul>

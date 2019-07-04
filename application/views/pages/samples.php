@@ -1,7 +1,7 @@
 <div id="body_content"><div class="content">          <section class="spl_request_help">
 <div class="container">
 <h1>Samples - custom paper writing</h1>
-<img src="images/adaptive/pe_img1.png" class="hidden-sm hidden-xs" alt="" />
+<img src="<?php echo base_url() ?>front_assets/images/adaptive/pe_img1.png" class="hidden-sm hidden-xs" alt="" />
 <h2>Do you have issues with essay writing?<br />
 Let our professionals assist you with research and writing</h2>
 <h3>See how you can benefit at Bestessays.com</h3>
@@ -18,7 +18,7 @@ Let our professionals assist you with research and writing</h2>
     <h4 class="samples_title">1. Writing Services</h4>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     <h5>Custom Essay</h5>
-    <div class="sample_left_side"><a href="samples/essay.pdf"><img alt="" src="images/adaptive/samples_img1.png" /></a>                 <a href="order/index.html" class="spl_order_button">Order now</a></div>
+    <div class="sample_left_side"><a href="samples/essay.pdf"><img alt="" src="<?php echo base_url() ?>front_assets/images/adaptive/samples_img1.png" /></a>                 <a href="order/index.html" class="spl_order_button">Order now</a></div>
     <table>
         <tbody>
             <tr>
@@ -61,7 +61,7 @@ Let our professionals assist you with research and writing</h2>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     <h5>Term Paper</h5>
-    <div class="sample_left_side"><a href="samples/term_paper.html"><img alt="" src="images/adaptive/samples_img1.png" /></a>                 <a href="order/index3bdd.html?doctype=13" class="spl_order_button">Order now</a></div>
+    <div class="sample_left_side"><a href="samples/term_paper.html"><img alt="" src="<?php echo base_url() ?>front_assets/images/adaptive/samples_img1.png" /></a>                 <a href="order/index3bdd.html?doctype=13" class="spl_order_button">Order now</a></div>
     <table>
         <tbody>
             <tr>
@@ -104,7 +104,7 @@ Let our professionals assist you with research and writing</h2>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     <h5>Research Paper</h5>
-    <div class="sample_left_side"><a href="samples/research_paper.pdf"><img alt="" src="images/adaptive/samples_img1.png" /></a>                 <a href="order/indexcc8b.html?doctype=14" class="spl_order_button">Order now</a></div>
+    <div class="sample_left_side"><a href="samples/research_paper.pdf"><img alt="" src="<?php echo base_url() ?>front_assets/images/adaptive/samples_img1.png" /></a>                 <a href="order/indexcc8b.html?doctype=14" class="spl_order_button">Order now</a></div>
     <table>
         <tbody>
             <tr>
@@ -147,7 +147,7 @@ Let our professionals assist you with research and writing</h2>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     <h5>Book Report</h5>
-    <div class="sample_left_side"><a href="samples/book_report.pdf"><img alt="" src="images/adaptive/samples_img1.png" /></a>                 <a href="order/index692c.html?doctype=37" class="spl_order_button">Order now</a></div>
+    <div class="sample_left_side"><a href="samples/book_report.pdf"><img alt="" src="<?php echo base_url() ?>front_assets/images/adaptive/samples_img1.png" /></a>                 <a href="order/index692c.html?doctype=37" class="spl_order_button">Order now</a></div>
     <table>
         <tbody>
             <tr>
@@ -190,7 +190,7 @@ Let our professionals assist you with research and writing</h2>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     <h5>Coursework</h5>
-    <div class="sample_left_side"><a href="samples/coursework.pdf"><img alt="" src="images/adaptive/samples_img1.png" /></a>                 <a href="order/index29de.html?doctype=39" class="spl_order_button">Order now</a></div>
+    <div class="sample_left_side"><a href="samples/coursework.pdf"><img alt="" src="<?php echo base_url() ?>front_assets/images/adaptive/samples_img1.png" /></a>                 <a href="order/index29de.html?doctype=39" class="spl_order_button">Order now</a></div>
     <table>
         <tbody>
             <tr>
@@ -229,7 +229,7 @@ Let our professionals assist you with research and writing</h2>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     <h5>Case Study</h5>
-    <div class="sample_left_side"><a href="samples/case_study.pdf"><img alt="" src="images/adaptive/samples_img1.png" /></a>                 <a href="order/index9c3e.html?doctype=80" class="spl_order_button">Order now</a></div>
+    <div class="sample_left_side"><a href="samples/case_study.pdf"><img alt="" src="<?php echo base_url() ?>front_assets/images/adaptive/samples_img1.png" /></a>                 <a href="order/index9c3e.html?doctype=80" class="spl_order_button">Order now</a></div>
     <table>
         <tbody>
             <tr>
@@ -272,7 +272,7 @@ Let our professionals assist you with research and writing</h2>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     <h5>Speech / Presentation</h5>
-    <div class="sample_left_side"><a href="samples/Speech_Presentation.pdf"><img alt="" src="images/adaptive/samples_img1.png" /></a>                 <a href="order/indexfce2.html?doctype=84" class="spl_order_button">Order now</a></div>
+    <div class="sample_left_side"><a href="samples/Speech_Presentation.pdf"><img alt="" src="<?php echo base_url() ?>front_assets/images/adaptive/samples_img1.png" /></a>                 <a href="order/indexfce2.html?doctype=84" class="spl_order_button">Order now</a></div>
     <table>
         <tbody>
             <tr>
@@ -315,7 +315,7 @@ Let our professionals assist you with research and writing</h2>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     <h5>Lab Report</h5>
-    <div class="sample_left_side"><a href="samples/Lab_report.html"><img alt="" src="images/adaptive/samples_img1.png" /></a>                 <a href="order/index0d2e.html?doctype=83" class="spl_order_button">Order now</a></div>
+    <div class="sample_left_side"><a href="samples/Lab_report.html"><img alt="" src="<?php echo base_url() ?>front_assets/images/adaptive/samples_img1.png" /></a>                 <a href="order/index0d2e.html?doctype=83" class="spl_order_button">Order now</a></div>
     <table>
         <tbody>
             <tr>
@@ -358,7 +358,7 @@ Let our professionals assist you with research and writing</h2>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     <h5>Article</h5>
-    <div class="sample_left_side"><a href="samples/Article.html"><img alt="" src="images/adaptive/samples_img1.png" /></a>                 <a href="order/index28be.html?doctype=168" class="spl_order_button">Order now</a></div>
+    <div class="sample_left_side"><a href="samples/Article.html"><img alt="" src="<?php echo base_url() ?>front_assets/images/adaptive/samples_img1.png" /></a>                 <a href="order/index28be.html?doctype=168" class="spl_order_button">Order now</a></div>
     <table>
         <tbody>
             <tr>
@@ -401,7 +401,7 @@ Let our professionals assist you with research and writing</h2>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     <h5>Article Critique</h5>
-    <div class="sample_left_side"><a href="samples/article_critiqe.html"><img alt="" src="images/adaptive/samples_img1.png" /></a>                 <a href="order/index20c5.html?doctype=169" class="spl_order_button">Order now</a></div>
+    <div class="sample_left_side"><a href="samples/article_critiqe.html"><img alt="" src="<?php echo base_url() ?>front_assets/images/adaptive/samples_img1.png" /></a>                 <a href="order/index20c5.html?doctype=169" class="spl_order_button">Order now</a></div>
     <table>
         <tbody>
             <tr>
@@ -444,7 +444,7 @@ Let our professionals assist you with research and writing</h2>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     <h5>Annotated Bibliography</h5>
-    <div class="sample_left_side"><a href="samples/annotated__bibliography.html"><img alt="" src="images/adaptive/samples_img1.png" /></a>                 <a href="order/index430d.html?doctype=170" class="spl_order_button">Order now</a></div>
+    <div class="sample_left_side"><a href="samples/annotated__bibliography.html"><img alt="" src="<?php echo base_url() ?>front_assets/images/adaptive/samples_img1.png" /></a>                 <a href="order/index430d.html?doctype=170" class="spl_order_button">Order now</a></div>
     <table>
         <tbody>
             <tr>
@@ -487,7 +487,7 @@ Let our professionals assist you with research and writing</h2>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     <h5>Reaction Paper</h5>
-    <div class="sample_left_side"><a href="samples/reaction_paper.html"><img alt="" src="images/adaptive/samples_img1.png" /></a>                 <a href="order/index8e80.html?doctype=171" class="spl_order_button">Order now</a></div>
+    <div class="sample_left_side"><a href="samples/reaction_paper.html"><img alt="" src="<?php echo base_url() ?>front_assets/images/adaptive/samples_img1.png" /></a>                 <a href="order/index8e80.html?doctype=171" class="spl_order_button">Order now</a></div>
     <table>
         <tbody>
             <tr>
@@ -535,7 +535,8 @@ Let our professionals assist you with research and writing</h2>
     <h4 class="samples_title">2. Admission Services</h4>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     <h5>Admission Essay</h5>
-    <div class="sample_left_side"><a href="samples/admission_essay.pdf"><img alt="" src="images/adaptive/samples_img1.png" /></a>                 <a href="order/indexcc5b.html?doctype=142" class="spl_order_button">Order now</a></div>
+    <div class="sample_left_side"><a href="samples/admission_essay.pdf"><img alt="" src="<?php echo base_url() ?>front_assets/images/adaptive/samples_img1.png" /></a>                
+     <a href="order/indexcc5b.html?doctype=142" class="spl_order_button">Order now</a></div>
     <table>
         <tbody>
             <tr>
@@ -574,7 +575,7 @@ Let our professionals assist you with research and writing</h2>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     <h5>Personal Statement</h5>
-    <div class="sample_left_side"><a href="samples/personal_statement.html"><img alt="" src="images/adaptive/samples_img1.png" /></a>                 <a href="order/index0d35.html?doctype=144" class="spl_order_button">Order now</a></div>
+    <div class="sample_left_side"><a href="samples/personal_statement.html"><img alt="" src="<?php echo base_url() ?>front_assets/images/adaptive/samples_img1.png" /></a>                 <a href="order/index0d35.html?doctype=144" class="spl_order_button">Order now</a></div>
     <table>
         <tbody>
             <tr>
@@ -613,7 +614,7 @@ Let our professionals assist you with research and writing</h2>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     <h5>Scholarship Essay</h5>
-    <div class="sample_left_side"><a href="samples/scholarship_essay.html"><img alt="" src="images/adaptive/samples_img1.png" /></a>                 <a href="order/indexbe00.html?doctype=143" class="spl_order_button">Order now</a></div>
+    <div class="sample_left_side"><a href="samples/scholarship_essay.html"><img alt="" src="<?php echo base_url() ?>front_assets/images/adaptive/samples_img1.png" /></a>                 <a href="order/indexbe00.html?doctype=143" class="spl_order_button">Order now</a></div>
     <table>
         <tbody>
             <tr>
@@ -649,7 +650,7 @@ Let our professionals assist you with research and writing</h2>
     <h4 class="samples_title">3.Assignments</h4>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     <h5>Power Point Presentation</h5>
-    <div class="sample_left_side"><a href="samples/power_point_presentation.ppt"><img alt="" src="images/adaptive/samples_img1.png" /></a>                 <a href="order/index9756.html?doctype=51" class="spl_order_button">Order now</a></div>
+    <div class="sample_left_side"><a href="samples/power_point_presentation.ppt"><img alt="" src="<?php echo base_url() ?>front_assets/images/adaptive/samples_img1.png" /></a>                 <a href="order/index9756.html?doctype=51" class="spl_order_button">Order now</a></div>
     <table>
         <tbody>
             <tr>
@@ -688,7 +689,7 @@ Let our professionals assist you with research and writing</h2>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     <h5>Math/Physics/Economics/ Statistics Problems</h5>
-    <div class="sample_left_side"><a href="samples/math-problem.html"><img alt="" src="images/adaptive/samples_img1.png" /></a>                 <a href="order/index3cc6.html?doctype=234" class="spl_order_button">Order now</a></div>
+    <div class="sample_left_side"><a href="samples/math-problem.html"><img alt="" src="<?php echo base_url() ?>front_assets/images/adaptive/samples_img1.png" /></a>                 <a href="order/index3cc6.html?doctype=234" class="spl_order_button">Order now</a></div>
     <table>
         <tbody>
             <tr>
@@ -719,7 +720,7 @@ Let our professionals assist you with research and writing</h2>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     <h5>Multiple Choice Questions</h5>
-    <div class="sample_left_side"><a href="samples/multiple-choice-questions.html"><img alt="" src="images/adaptive/samples_img1.png" /></a>                 <a href="order/indexa4ed.html?doctype=126" class="spl_order_button">Order now</a></div>
+    <div class="sample_left_side"><a href="samples/multiple-choice-questions.html"><img alt="" src="<?php echo base_url() ?>front_assets/images/adaptive/samples_img1.png" /></a>                 <a href="order/indexa4ed.html?doctype=126" class="spl_order_button">Order now</a></div>
     <table>
         <tbody>
             <tr>
@@ -755,7 +756,7 @@ Let our professionals assist you with research and writing</h2>
     <h4 class="samples_title">4.Dissertation Services</h4>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     <h5>Dissertation</h5>
-    <div class="sample_left_side"><a href="samples/dissertation.html"><img alt="" src="images/adaptive/samples_img1.png" /></a>                 <a href="order/index745c.html?doctype=1" class="spl_order_button">Order now</a></div>
+    <div class="sample_left_side"><a href="samples/dissertation.html"><img alt="" src="<?php echo base_url() ?>front_assets/images/adaptive/samples_img1.png" /></a>                 <a href="order/index745c.html?doctype=1" class="spl_order_button">Order now</a></div>
     <table>
         <tbody>
             <tr>
@@ -794,7 +795,7 @@ Let our professionals assist you with research and writing</h2>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     <h5>Literature Review</h5>
-    <div class="sample_left_side"><a href="samples/Literature_Review.html"><img alt="" src="images/adaptive/samples_img1.png" /></a>                 <a href="order/index9b1a.html?doctype=148" class="spl_order_button">Order now</a></div>
+    <div class="sample_left_side"><a href="samples/Literature_Review.html"><img alt="" src="<?php echo base_url() ?>front_assets/images/adaptive/samples_img1.png" /></a>                 <a href="order/index9b1a.html?doctype=148" class="spl_order_button">Order now</a></div>
     <table>
         <tbody>
             <tr>
@@ -833,7 +834,7 @@ Let our professionals assist you with research and writing</h2>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     <h5>Thesis</h5>
-    <div class="sample_left_side"><a href="samples/thesis.html"><img alt="" src="images/adaptive/samples_img1.png" /></a>                 <a href="order/indexe6f2.html?doctype=15" class="spl_order_button">Order now</a></div>
+    <div class="sample_left_side"><a href="samples/thesis.html"><img alt="" src="<?php echo base_url() ?>front_assets/images/adaptive/samples_img1.png" /></a>                 <a href="order/indexe6f2.html?doctype=15" class="spl_order_button">Order now</a></div>
     <table>
         <tbody>
             <tr>
@@ -881,7 +882,7 @@ Let our professionals assist you with research and writing</h2>
     <h4 class="samples_title">5. Editing Services</h4>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     <h5>Editing</h5>
-    <div class="sample_left_side"><a href="samples/editing.pdf"><img alt="" src="images/adaptive/samples_img1.png" /></a>                 <a href="order/indexe3fd.html?doctype=3" class="spl_order_button">Order now</a></div>
+    <div class="sample_left_side"><a href="samples/editing.pdf"><img alt="" src="<?php echo base_url() ?>front_assets/images/adaptive/samples_img1.png" /></a>                 <a href="order/indexe3fd.html?doctype=3" class="spl_order_button">Order now</a></div>
     <table>
         <tbody>
             <tr>
@@ -961,9 +962,9 @@ position:fixed!important;
     
   <!-- popup starts -->
 
-    <link rel="stylesheet" type="text/css" href="res_v1560415138/css/subscribe/sweet-alert.css" />
-<link rel="stylesheet" type="text/css" href="res_v1560415138/css/subscribe/popup-bestessays.com2.css" />
-<script type="text/javascript" src="res_v1560415138/js/subscribe/popup.js"></script>
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>front_assets/res_v1560415138/css/subscribe/sweet-alert.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>front_assets/res_v1560415138/css/subscribe/popup-bestessays.com2.css" />
+<script type="text/javascript" src="<?php echo base_url() ?>front_assets/res_v1560415138/js/subscribe/popup.js"></script>
 
 <div class="popup-optimization">
     <div class="popup-optimization__bg"></div>
@@ -998,7 +999,7 @@ position:fixed!important;
                     </div>
                 </form>
             </div>
-            <img class="popup-loader" src="res_v1560415138/img/callback/loader.gif" alt=""/>
+            <img class="popup-loader" src="<?php echo base_url() ?>front_assets/res_v1560415138/img/callback/loader.gif" alt=""/>
             <div class="popup-result">
                 <span class="popup-close close-but">&middot;</span>
                 <div class="sweet-alert " style="display: block; ">

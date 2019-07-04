@@ -125,9 +125,9 @@ position:fixed!important;
 <!-- /BoldChat Visitor Monitor HTML v5.00 -->    
   <!-- popup starts -->
 
-    <link rel="stylesheet" type="text/css" href="res_v1560415138/css/subscribe/sweet-alert.css" />
-<link rel="stylesheet" type="text/css" href="res_v1560415138/css/subscribe/popup-bestessays.com2.css" />
-<script type="text/javascript" src="res_v1560415138/js/subscribe/popup.js"></script>
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>front_assets/res_v1560415138/css/subscribe/sweet-alert.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>front_assets/res_v1560415138/css/subscribe/popup-bestessays.com2.css" />
+<script type="text/javascript" src="<?php echo base_url() ?>front_assets/res_v1560415138/js/subscribe/popup.js"></script>
 
 <div class="popup-optimization">
     <div class="popup-optimization__bg"></div>
@@ -162,7 +162,7 @@ position:fixed!important;
                     </div>
                 </form>
             </div>
-            <img class="popup-loader" src="res_v1560415138/img/callback/loader.gif" alt=""/>
+            <img class="popup-loader" src="<?php echo base_url() ?>front_assets/res_v1560415138/img/callback/loader.gif" alt=""/>
             <div class="popup-result">
                 <span class="popup-close close-but">&middot;</span>
                 <div class="sweet-alert " style="display: block; ">

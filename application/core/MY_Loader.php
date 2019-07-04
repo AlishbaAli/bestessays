@@ -13,4 +13,11 @@ class MY_Loader extends CI_Loader {
         $this->view($template_name, $vars, $return); // view
         $this->view('component/front2/footer', $vars, $return); // footer
     }
+
+    public function front_template_services($template_name, $vars = array(), $return = FALSE)
+    {
+        $this->view('component/front_services/header', $vars, $return); // header
+        $this->view($template_name, $vars, $return); // view
+        $this->view('component/front_services/footer', $vars, $return); // footer
+    }
 }
