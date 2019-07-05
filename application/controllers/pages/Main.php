@@ -34,12 +34,12 @@ class Main extends Front_Controller {
 		$this->load->front_template('pages/contact',$this->data);
 		
 	}
-	public function get_great_discount()
+	public function discount()
 	{
 		
 		$this->data['title'] = 'Get Discount';
 
-		$this->load->front_template('pages/get_great_discount',$this->data);
+		$this->load->front_template('pages/discount',$this->data);
 		
 	}
 

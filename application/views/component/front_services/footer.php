@@ -1,4 +1,46 @@
- <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>front_assets/res_v1560415138/css/subscribe/sweet-alert.css" />
+ <div class="re-container">
+    <div class="re-related-block re-related-block-product clearfix">
+        <div class="re-related-block-h">Related Services</div>
+        <div class="re-related-item-wrap clearfix">
+            <a href="custom_research_paper.html" class="re-related-item">
+                <div class="re-related-item-txt">
+                    <div class="re-related-item-h">Research Paper</div>
+                    <p>from $21.99/page</p>
+                </div>
+
+                <span class="popular-label">popular</span>
+            </a>
+            <a href="coursework.html" class="re-related-item">
+                <div class="re-related-item-txt">
+                    <div class="re-related-item-h">Coursework</div>
+                    <p>from $21.99/page</p>
+                </div>
+                <span class="popular-label">popular</span>
+            </a>
+            <a href="custom_term_paper.html" class="re-related-item">
+                <div class="re-related-item-txt">
+                    <div class="re-related-item-h">Term Paper</div>
+                    <p>from $21.99/page</p>
+                </div>
+            </a>
+            <a href="casestudy.html" class="re-related-item">
+                <div class="re-related-item-txt">
+                    <div class="re-related-item-h">Case Study</div>
+                    <p>from $22.99/page</p>
+                </div>
+            </a>
+            <a href="powerpoint.html" class="re-related-item">
+                <div class="re-related-item-txt">
+                    <div class="re-related-item-h">Power Point Presentation</div>
+                    <p>from $16.99/page</p>
+                </div>
+                <span class="popular-label">popular</span>
+            </a>
+        </div>
+    </div>
+</div>  
+
+<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>front_assets/res_v1560415138/css/subscribe/sweet-alert.css" />
 <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>front_assets/res_v1560415138/css/subscribe/popup-bestessays.com2.css" />
 <script type="text/javascript" src="<?php echo base_url() ?>front_assets/res_v1560415138/js/subscribe/popup.js"></script>
 
@@ -50,7 +92,73 @@
     </div>
 </div>
 <!-- popup ends -->    
- <div class="footer-block">
+    <br/>
+    <div>
+            </div>
+
+         <!-- BoldChat Conversion Tracking HTML v5.10 (Website=www.bestessays.com,ConversionCode=test conversion code) -->
+<script type="text/javascript">
+    window._bcvma = window._bcvma || [];
+    _bcvma.push(["setAccountID", "161178856198874968"]);
+    _bcvma.push(["addConversion", {
+      ConversionAmount: dataLayer[0].transactionTotal,
+      ConversionRef: dataLayer[0].transactionId,
+      ConversionInfo: "",
+      WebsiteID: "1985431959216183439",
+      ConversionCodeID: "3070130503748985491"
+    }]);
+  var bcLoad = function(){
+    if(window.bcLoaded) return; window.bcLoaded = true;
+    var vms = document.createElement("script"); vms.type = "text/javascript"; vms.async = true;
+    vms.src = ('https:'==document.location.protocol?'https://':'https://') + "vmss.boldchat.com/aid/161178856198874968/bc.vms4/vms.js";
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vms, s);
+  };
+  if(window.pageViewer && pageViewer.load) pageViewer.load();
+  else bcLoad();</script>
+<noscript>
+<a href="https://www.boldchat.com/" title="Live Chat Software" target="_blank"><img alt="Live Chat Software" src="https://vms.boldchat.com/aid/161178856198874968/bc.vci?wdid=1985431959216183439&amp;ccid=3070130503748985491&amp;ca=&amp;cr=&amp;ci=" border="0" width="1" height="1" /></a>
+</noscript>
+<!-- /BoldChat Conversion Tracking HTML v5.10 -->
+    
+         <style>
+.bcFloat{
+bottom:0!important;
+right:0!important;
+top:auto!important;
+left:auto!important;
+position:fixed!important;
+}
+</style>
+<!-- BoldChat Visitor Monitor HTML v5.00 (Website=www.bestessays.com,ChatButton=Dev button float,ChatInvitation=Prices ) -->
+<script type="text/javascript">
+  window._bcvma = window._bcvma || [];
+  _bcvma.push(["setAccountID", "161178856198874968"]);
+  _bcvma.push(["setParameter", "WebsiteID", "1985431959216183439"]);
+  _bcvma.push(["setParameter", "VisitInfo", dataLayer[0].userId]);
+  _bcvma.push(["setParameter", "InvitationID", "29777179604711897"]);
+  _bcvma.push(["addFloat", {type: "chat", id: "3771936857143385943"}]);
+  _bcvma.push(["pageViewed"]);
+  var bcLoad = function(){
+    if(window.bcLoaded) return; window.bcLoaded = true;
+    var vms = document.createElement("script"); vms.type = "text/javascript"; vms.async = true;
+    vms.src = ('https:'==document.location.protocol?'https://':'https://') + "vmss.boldchat.com/aid/161178856198874968/bc.vms4/vms.js";
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vms, s);
+  };
+  if(window.pageViewer && pageViewer.load) pageViewer.load();
+  else if(document.readyState=="complete") bcLoad();
+  else if(window.addEventListener) window.addEventListener('load', bcLoad, false);
+  else window.attachEvent('onload', bcLoad);
+</script>
+<noscript>
+<a href="https://www.boldchat.com/" title="Live Chat Software" target="_blank"><img alt="Live Chat Software" src="https://vms.boldchat.com/aid/161178856198874968/bc.vmi?wdid=1985431959216183439&amp;vi=userID&amp;curl=" border="0" width="1" height="1" /></a>
+</noscript>
+<!-- /BoldChat Visitor Monitor HTML v5.00 -->
+    
+         <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTC9MMT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->    
+         <div class="footer-block">
 
   <div class="center-wrapper">
 

@@ -308,60 +308,7 @@
 </div>
 </div>
 </div>
-</section>    </div></div>  <!-- popup starts -->
-
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>front_assets/res_v1560415138/css/subscribe/sweet-alert.css" />
-<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>front_assets/res_v1560415138/css/subscribe/popup-bestessays.com2.css" />
-<script type="text/javascript" src="<?php echo base_url() ?>front_assets/res_v1560415138/js/subscribe/popup.js"></script>
-
-<div class="popup-optimization">
-    <div class="popup-optimization__bg"></div>
-    <div class="popup-optimization__checkbox"></div>
-    <div class="popup-optimization__close"></div>
-    <div class="popup-optimization__icon"></div>
-</div>
-
-<div class="popup-layer" id="bio_ep" data-test="popup">
-    <input  id="url-page" type="hidden" value="/our-services">
-    <div class="popup-window">
-        <div class="modal-popup">
-            <div class="popup-form">
-                <span class="popup-close close-but" id="bio_ep_close">&middot;</span>
-                <form action="#" id="discountForm">
-                    <div class="popup-title">
-                        <div class="popup-title__question">First time here?</div>
-                        <div class="popup-title__answer">Great deal is on! <span class="popup-title__answer popup-title__answer--bold">15% off</span> your order</div>
-                    </div>
-                    <div class="popup-subscribe">
-                        <div class="input-wrap">
-                            <span class="address-icon">&nbsp;</span>
-                            <input type="text" class="popup-input popup-subscribe__email" placeholder="Your email address" id="email">
-                        </div>
-                        <span class="popup-submit__button">Email me now</span>
-                    </div>
-                    <div class="terms-conditions">
-                        <div class="terms-conditions__text">
-                            I accept the <a href="disclaimer.html" target="_blank">Terms and Conditions</a>
-                        </div>
-                        <div class="terms-conditions__error">You must accept terms and conditions</div>
-                    </div>
-                </form>
-            </div>
-            <img class="popup-loader" src="<?php echo base_url() ?>front_assets/res_v1560415138/img/callback/loader.gif" alt=""/>
-            <div class="popup-result">
-                <span class="popup-close close-but">&middot;</span>
-                <div class="sweet-alert " style="display: block; ">
-                    <div class="sa-icon sa-success animate" style="display: block;"> <span class="sa-line sa-tip animateSuccessTip"></span> <span class="sa-line sa-long animateSuccessLong"></span> <div class="sa-placeholder"></div> <div class="sa-fix"></div> </div>
-                </div>
-                <p class="success-message">Done! Check your email for the discount</p>
-                <a href="order/indexce5e.html?promo=ok17&amp;numpages=3&amp;utm_source=regisration&amp;utm_medium=email&amp;utm_campaign=popup_button#cost_per_page" id="orderLink" class="popup-close close-link">
-                    Continue to order
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- popup ends -->    
+</section>    </div></div>    
     <br/>
     <div>
             </div>

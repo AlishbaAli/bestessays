@@ -18,37 +18,37 @@ class Services extends Front_Controller {
 		
 	}
 
-	public function research_paper()
+	public function researchpaper()
 	{
 		
 		$this->data['title'] = 'Research Paper';
 
-		$this->load->front_template_Services('pages/research_paper',$this->data);
+		$this->load->front_template_Services('pages/researchpaper',$this->data);
 		
 	}
-	public function course_work()
+	public function coursework()
 	{
 		
 		$this->data['title'] = 'Coursework';
 
-		$this->load->front_template_Services('pages/course_work',$this->data);
+		$this->load->front_template_Services('pages/coursework',$this->data);
 		
 	}
-	public function team_paper()
+	public function termpaper()
 	{
 		
 		$this->data['title'] = 'Team Paper';
 
-		$this->load->front_template_Services('pages/team_paper',$this->data);
+		$this->load->front_template_Services('pages/termpaper',$this->data);
 		
 	}
 
-	public function case_study()
+	public function casestudy()
 	{
 		
 		$this->data['title'] = 'Case Study';
 
-		$this->load->front_template_Services('pages/case_study',$this->data);
+		$this->load->front_template_Services('pages/casestudy',$this->data);
 		
 		
 	}
@@ -57,7 +57,7 @@ class Services extends Front_Controller {
 		
 		$this->data['title'] = 'Dissertation Services';
 
-		$this->load->front_template_Services('pages/samples',$this->data);
+		$this->load->front_template('pages/dissertation_services',$this->data);
 		
 		
 	}
@@ -66,25 +66,17 @@ class Services extends Front_Controller {
 		
 		$this->data['title'] = 'Admission Services';
 
-		$this->load->front_template_Services('pages/samples',$this->data);
+		$this->load->front_template('pages/admission_services',$this->data);
 		
 		
 	}
-	public function resume()
-	{
-		
-		$this->data['title'] = 'Resume';
-
-		$this->load->front_template_Services('pages/samples',$this->data);
-		
-		
-	}
+	
 	public function extras()
 	{
 		
 		$this->data['title'] = 'Extras';
 
-		$this->load->front_template_Services('pages/samples',$this->data);
+		$this->load->front_template('pages/extras',$this->data);
 		
 		
 	}
