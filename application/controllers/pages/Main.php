@@ -42,13 +42,28 @@ class Main extends Front_Controller {
 		$this->load->front_template('pages/discount',$this->data);
 		
 	}
+public function prices()
+	{
+		
+		$this->data['title'] = 'Prices';
 
+		$this->load->front_template('pages/prices',$this->data);
+		
+	}
 	public function samples()
 	{
 		
 		$this->data['title'] = 'Samples';
 
 		$this->load->front_template('pages/samples',$this->data);
+		
+	}
+		public function glossary()
+	{
+		
+		$this->data['title'] = 'Glossary';
+
+		$this->load->front_template('pages/glossary',$this->data);
 		
 	}
 	

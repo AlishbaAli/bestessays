@@ -165,24 +165,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="footer-block__menu flex-wrapper">
 
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="prices.html">Prices</a></li>
+        <li><a href="<?php echo base_url() ?>">Home</a></li>
+        <li><a href="<?php echo base_url() ?>pages/main/prices">Prices</a></li>
         <li><a href="order/index.html">Order custom essay</a></li>
-        <li><a href="samples.html">Sample Essays</a></li>
-        <li><a href="custom_term_paper.html">Custom term paper</a></li>
+        <li><a href="<?php echo base_url() ?>pages/main/samples">Sample Essays</a></li>
+        <li><a href="<?php echo base_url() ?>pages/services/termpaper">Custom term paper</a></li>
       </ul>
       <ul>
         <li><a href="affiliate.html">Affiliate program</a></li>
-        <li><a href="doc_essay.html">Custom essay</a></li>
-        <li><a href="custom_research_paper.html">Research paper</a></li>
+        <li><a href="<?php echo base_url() ?>pages/services/essay">Custom essay</a></li>
+        <li><a href="<?php echo base_url() ?>pages/servces/researchpaper">Research paper</a></li>
         <li><a href="write-my-essay.html">Write my essay</a></li>
         <li><a href="essay_writers.html">Essay writers</a></li>
       </ul>
       <ul>
-        <li><a href="index.html">Writing Process</a></li>
+        <li><a href="<?php echo base_url() ?>">Writing Process</a></li>
         <li><a href="https://www.freelancercareers.org/">Become a Freelance Writer</a></li>
         <li><a href="customersupport.html">Contact us</a></li>
-        <li><a href="glossary.html">Glossary</a></li>
+        <li><a href="<?php echo base_url() ?>pages/main/glossary">Glossary</a></li>
         <li><a href="sitemap.html">Sitemap</a></li>
       </ul>
       <ul>

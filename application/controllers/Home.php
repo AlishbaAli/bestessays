@@ -17,7 +17,7 @@ class Home extends Front_Controller {
 		 // $this->data['sliders'] = $this->Slider_model->all_rows('slider');
 		
 		
-	$this->load->front_template('home',$this->data);
+	$this->load->front_template_home('home',$this->data);
 		
 		
 	}
