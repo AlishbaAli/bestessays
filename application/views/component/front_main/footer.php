@@ -68,25 +68,25 @@
                             <li><a href="order/index.html">Order custom essay</a></li>
                             <li><a href="<?php echo base_url() ?>pages/main/samples">Sample Essays</a></li>
                             <li><a href="<?php echo base_url() ?>pages/services/termpaper">Custom term paper</a></li>
-                            <li><a href="affiliate.php/index.html">Affiliate program</a></li>
+                            <li><a href="<?php echo base_url() ?>pages/services/affiliate">Affiliate program</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4 col-sm-4">
                         <ul>
                             <li><a href="<?php echo base_url() ?>pages/services/essay">Custom essay</a></li>
                             <li><a href="<?php echo base_url() ?>pages/services/researchpaper">Research paper</a></li>
-                            <li><a href="write-my-essay.html">Write my essay</a></li>
-                            <li><a href="essay_writers.html">Essay writers</a></li>
+                            <li><a href="<?php echo base_url() ?>pages/services/write_my_essay">Write my essay</a></li>
+                            <li><a href="<?php echo base_url() ?>pages/services/essay_writers">Essay writers</a></li>
                             <li><a href="<?php echo base_url() ?>">Writing Process</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4 col-sm-4">
                         <ul>
-                            <li><a href="customersupport.html">Contact us</a></li>
+                            <li><a href="<?php echo base_url() ?>pages/main/contact">Contact us</a></li>
                             <li><a href="<?php echo base_url() ?>pages/main/glossary">Glossary</a></li>
-                            <li><a href="disclaimer.html">Terms and conditions</a></li>
-                            <li><a href="privacy_policy.html">Privacy policy</a></li>
-                            <li><a href="sitemap.html">Sitemap</a></li>
+                            <li><a href="<?php echo base_url() ?>pages/services/disclaimer">Terms and conditions</a></li>
+                            <li><a href="<?php echo base_url() ?>pages/services/privacy_policy">Privacy policy</a></li>
+                            <li><a href="<?php echo base_url() ?>pages/services/sitemap">Sitemap</a></li>
                             <li><a href="custompaperfaq.html">FAQ</a></li>
                         </ul>
                     </div>

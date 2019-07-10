@@ -5,30 +5,30 @@
                 <div class="row bottom_links">
                     <div class="col-md-4 col-sm-4">
                         <ul>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/prices.php">Prices</a></li>
+                            <li><a href="<?php echo base_url() ?>">Home</a></li>
+                            <li><a href="<?php echo base_url() ?>pages/main/prices">Prices</a></li>
                             <li><a href="/order">Order custom essay</a></li>
-                            <li><a href="/samples.php">Sample Essays</a></li>
-                            <li><a href="/custom_term_paper.php">Custom term paper</a></li>
-                            <li><a href="/affiliate.php/">Affiliate program</a></li>
+                            <li><a href="<?php echo base_url() ?>pages/main/samples">Sample Essays</a></li>
+                            <li><a href="<?php echo base_url() ?>pages/services/termpaper">Custom term paper</a></li>
+                            <li><a href="<?php echo base_url() ?>pages/services/affiliate">Affiliate program</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4 col-sm-4">
                         <ul>
-                            <li><a href="/doc_essay.php">Custom essay</a></li>
-                            <li><a href="/custom_research_paper.php">Research paper</a></li>
-                            <li><a href="/write-my-essay.php">Write my essay</a></li>
-                            <li><a href="/essay_writers.php">Essay writers</a></li>
+                            <li><a href="<?php echo base_url() ?>pages/services/essays">Custom essay</a></li>
+                            <li><a href="<?php echo base_url() ?>pages/services/researchpaper">Research paper</a></li>
+                            <li><a href="<?php echo base_url() ?>pages/services//write_my_essay">Write my essay</a></li>
+                            <li><a href="<?php echo base_url() ?>pages/services/essay_writers">Essay writers</a></li>
                             <li><a href="/custom_writing.php">Writing Process</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4 col-sm-4">
                         <ul>
-                            <li><a href="/customersupport.php">Contact us</a></li>
-                            <li><a href="/glossary.php">Glossary</a></li>
-                            <li><a href="/disclaimer.php">Terms and conditions</a></li>
-                            <li><a href="/privacy_policy.php">Privacy policy</a></li>
-                            <li><a href="/sitemap.php">Sitemap</a></li>
+                            <li><a href="<?php echo base_url() ?>pages/main/contact">Contact us</a></li>
+                            <li><a href="<?php echo base_url() ?>pages/main/glossary">Glossary</a></li>
+                            <li><a href="<?php echo base_url() ?>pages/services/disclaimer">Terms and conditions</a></li>
+                            <li><a href="<?php echo base_url() ?>pages/services/privacy_policy">Privacy policy</a></li>
+                            <li><a href="<?php echo base_url() ?>pages/services/sitemap">Sitemap</a></li>
                             <li><a href="/custompaperfaq.php ">FAQ</a></li>
                         </ul>
                     </div>

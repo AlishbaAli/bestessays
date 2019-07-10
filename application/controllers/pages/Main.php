@@ -66,6 +66,15 @@ public function prices()
 		$this->load->front_template('pages/glossary',$this->data);
 		
 	}
+
+	public function order()
+	{
+		
+		$this->data['title'] = 'Order';
+
+		$this->load->front_template_services('pages/order',$this->data);
+		
+	}
 	
 
 }

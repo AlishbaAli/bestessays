@@ -81,6 +81,60 @@ class Services extends Front_Controller {
 		
 	}
 
+	public function privacy_policy()
+	{
+		
+		$this->data['title'] = 'Privacy Policy';
+
+		$this->load->front_template('pages/extras',$this->data);
+		
+		
+	}
+	public function disclaimer()
+	{
+		
+		$this->data['title'] = 'Terms and Conditions';
+
+		$this->load->front_template('pages/disclaimer',$this->data);
+		
+		
+	}
+public function sitemap()
+	{
+		
+		$this->data['title'] = 'Sitemap';
+
+		$this->load->front_template('pages/sitemap',$this->data);
+		
+		
+	}
+	public function affiliate()
+	{
+		
+		$this->data['title'] = 'Affiliate';
+
+		$this->load->front_template('pages/affiliate',$this->data);
+		
+		
+	}
+	public function write_my_essay()
+	{
+		
+		$this->data['title'] = 'Write My Essay';
+
+		$this->load->front_template('pages/write_my_essay',$this->data);
+		
+		
+	}
+	public function essay_writers()
+	{
+		
+		$this->data['title'] = 'Essay Writer';
+
+		$this->load->front_template('pages/essay_writers',$this->data);
+		
+		
+	}
 	
 	
 
