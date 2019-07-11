@@ -6,7 +6,70 @@ class Main extends Front_Controller {
 	public function __construct()
     {
         parent::__construct();
-       // $this->load->model('About_model');
+       $this->load->model('order_model');
+    }
+
+
+    public function save_form()
+    {
+    	
+    // 	echo "<pre>";
+    // print_r($_POST);
+    // die;
+     $name = $this->input->post('name');
+     $email = $this->input->post('email');
+     $phone = $this->input->post('phone1_number');
+    
+     
+  
+ //    $topic=$this->input->post('topic');
+	// $doc_type=$this->input->post('doctype');
+	// $ppt_req=$this->input->post('additional[303]');
+	// $urgency=$this->input->post('urgency');
+	// $level=$this->input->post('wrlevel');
+	// $no_of_pages=$this->input->post('numpages');
+	// $doc_type=$this->input->post('doctype');
+	
+	// $order_data=array(
+	// 'topic'=>$_POST["topic"],
+	// 'doctype'=>$_POST["doctype"],  
+	// 'ppt_req'=>$_POST["ppt_req"],
+	//  'urgency' =>$_POST["urgency"],
+	//  'level' =>$_POST["level"],
+ //     'no_of_pages' => $_POST["no_of_pages"],
+ //     'spacing' => $_POST["spacing"],
+ //     'sub_area' => $_POST["sub_area"],
+ //     'instructions' => $_POST["instructions"],
+ //     'attachment' => $_POST["attachment"],
+ //     'additional_info' => $_POST["additional_info"],
+ //     'academic_level' => $_POST["academic_level"],
+ //     'style' => $_POST["style"],
+ //     'writer_id' => $_POST["writer_id"],
+ //     'user_id' => $_POST["user_id"],
+ //     'total_price' => $_POST["total_price"],
+ //     'discount' => $_POST["discount"],
+
+	//);
+     $user_data=array(
+     	'name' => $this->input->post('name'),
+     	'email'=> $this->input->post('email'),
+     	'phone'=> $this->input->post('phone1_number'),
+     	'country'=> $this->input->post('country'),
+     	'phone_country'=> $this->input->post('phone1_country'),
+     	'password'=> 1
+
+     
+
+     );
+//  $order_data=array(
+// 'topic'=> $this->input->podt('topic'),
+// 'doctype'=> $this->input->podt('doctype'),
+// 'urgency'=> $this->input->podt('urgency')
+
+//  );
+
+	$this->order_model->insert('users',$user_data); 
+	    
     }
 
 	public function about()
