@@ -73,10 +73,14 @@ class Order_detail extends MY_Controller {
         //     redirect('admin/home');
         // }
     $this->data['title'] = 'Edit Module';
-    $this->data['order_detail'] = $this->order_model->get_row_single('orders',$id);
-   
+
+
+    $this->data['order_detail'] = $this->order_model->get_row_single('orders',array('id'=>$id));
+
 
         //$this->data['role'] = $this->User_model->all_rows('user_type');
+    
+
         $this->load->template('admin/order_detail/edit',$this->data);
     }
 

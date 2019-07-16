@@ -37,7 +37,8 @@
 
                                 <label for="example-text-input" class="col-sm-3 col-form-label">Topic<span class="required">*</span></label>
                                 <div class="col-sm-9">
-                                    <input class="form-control" name="topic" type="text" value="<?php echo $order_detail['topic'] ?>" id="example-text-input" placeholder="" required="">
+                                    <input class="form-control" name="topic" type="text" value="<?php echo 
+                                    $order_detail['topic'] ?>" id="example-text-input" placeholder="" required="">
                                 </div>
 
                             </div>
@@ -45,7 +46,7 @@
 
                                 <label for="example-text-input" class="col-sm-3 col-form-label">Type of document<span class="required">*</span></label>
                                 <div class="col-sm-9">
-                                    <input class="form-control" name="doctype" type="text" value="<?php echo $order_detail['doctype'] ?>" id="example-text-input" placeholder="" required="">
+                                    <input class="form-control" name="doctype" type="text" value="<?php echo $order_detail['doctype']  ?>" id="example-text-input" placeholder="" required="">
                                 </div>
 
                             </div>
@@ -54,7 +55,47 @@
 
                                 <label for="example-text-input" class="col-sm-3 col-form-label">No of Pages<span class="required">*</span></label>
                                 <div class="col-sm-9">
-                                    <input class="form-control" name="no_of_pages" type="text" value="" id="example-text-input" placeholder="">
+                                    <input class="form-control" name="no_of_pages" type="text" value="<?php echo $order_detail['no_of_pages'] ?>" id="example-text-input" placeholder="">
+                                </div>
+
+                            </div>
+                            <div class="form-group row">
+
+                                <label for="example-text-input" class="col-sm-3 col-form-label">Academic Level<span class="required">*</span></label>
+                                <div class="col-sm-9">
+                                    <input class="form-control" name="academic_level" type="text" value="<?php echo $order_detail['academic_level'] ?>" id="example-text-input" placeholder="">
+                                </div>
+
+                            </div>
+                            <div class="form-group row">
+
+                                <label for="example-text-input" class="col-sm-3 col-form-label">Writer ID<span class="required">*</span></label>
+                                <div class="col-sm-9">
+                                    <input class="form-control" name="writer_id" type="text" value="<?php echo $order_detail['writer_id'] ?>" id="example-text-input" placeholder="">
+                                </div>
+
+                            </div>
+                            <div class="form-group row">
+
+                                <label for="example-text-input" class="col-sm-3 col-form-label">Urgency<span class="required">*</span></label>
+                                <div class="col-sm-9">
+                                    <input class="form-control" name="urgency" type="text" value="<?php echo $order_detail['urgency'] ?>" id="example-text-input" placeholder="">
+                                </div>
+
+                            </div>
+                             <div class="form-group row">
+
+                                <label for="example-text-input" class="col-sm-3 col-form-label">Subject Area<span class="required">*</span></label>
+                                <div class="col-sm-9">
+                                    <input class="form-control" name="sub_area" type="text" value="<?php echo $order_detail['sub_area'] ?>" id="example-text-input" placeholder="">
+                                </div>
+
+                            </div>
+                             <div class="form-group row">
+
+                                <label for="example-text-input" class="col-sm-3 col-form-label">Style<span class="required">*</span></label>
+                                <div class="col-sm-9">
+                                    <input class="form-control" name="style" type="text" value="<?php echo $order_detail['style'] ?>" id="example-text-input" placeholder="">
                                 </div>
 
                             </div>

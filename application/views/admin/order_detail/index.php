@@ -43,6 +43,11 @@
 													<th>Topic</th>
 													<th>Type of document</th>
 													<th>No of Pages</th>
+													<th>Academic Level</th>
+													<th>Writer ID</th>
+													<th>Urgency</th>
+													<th>Subject Area</th>
+													<th>Style</th>
 													<th>Action</th>
 													<!-- <?php 
 														if ($permission['edit'] == '1' || $permission['deleted'] == '1'){
@@ -60,6 +65,11 @@
 													<td><?php echo $order['topic'] ?></td>
 													<td><?php echo $order['doctype'] ?></td>
 													<td><?php echo $order['no_of_pages'] ?></td>
+													<td><?php echo $order['academic_level'] ?></td>
+													<td><?php echo $order['writer_id'] ?></td>
+													<td><?php echo $order['urgency'] ?></td>
+													<td><?php echo $order['sub_area'] ?></td>
+													<td><?php echo $order['style'] ?></td>
 													
 													<td>
 														
