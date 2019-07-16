@@ -37,7 +37,7 @@ class Users extends MY_Controller {
             redirect('admin/home');
         }
         $this->data['title'] = 'Create User';
-        $this->data['role'] = $this->User_model->all_rows('user_type');
+        $this->data['role'] = $this->User_model->all_rows('user');
         $this->load->template('admin/user/create',$this->data);
     }
 

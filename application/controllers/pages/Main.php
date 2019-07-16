@@ -7,6 +7,7 @@ class Main extends Front_Controller {
     {
         parent::__construct();
        $this->load->model('order_model');
+       // $this->id = $this->session->userdata('user_id');
     }
 
 
@@ -14,61 +15,48 @@ class Main extends Front_Controller {
     {
     	
     // 	echo "<pre>";
-    // print_r($_POST);
+    //   $count_additional = implode(',',$_POST['count_additional']);
+    //   $additional = implode(',',$_POST['additional']);
+    // print_r($count_additional);
+    // print_r($additional);
     // die;
-     $name = $this->input->post('name');
-     $email = $this->input->post('email');
-     $phone = $this->input->post('phone1_number');
     
-     
-  
- //    $topic=$this->input->post('topic');
-	// $doc_type=$this->input->post('doctype');
-	// $ppt_req=$this->input->post('additional[303]');
-	// $urgency=$this->input->post('urgency');
-	// $level=$this->input->post('wrlevel');
-	// $no_of_pages=$this->input->post('numpages');
-	// $doc_type=$this->input->post('doctype');
-	
-	// $order_data=array(
-	// 'topic'=>$_POST["topic"],
-	// 'doctype'=>$_POST["doctype"],  
-	// 'ppt_req'=>$_POST["ppt_req"],
-	//  'urgency' =>$_POST["urgency"],
-	//  'level' =>$_POST["level"],
- //     'no_of_pages' => $_POST["no_of_pages"],
- //     'spacing' => $_POST["spacing"],
- //     'sub_area' => $_POST["sub_area"],
- //     'instructions' => $_POST["instructions"],
- //     'attachment' => $_POST["attachment"],
- //     'additional_info' => $_POST["additional_info"],
- //     'academic_level' => $_POST["academic_level"],
- //     'style' => $_POST["style"],
- //     'writer_id' => $_POST["writer_id"],
- //     'user_id' => $_POST["user_id"],
- //     'total_price' => $_POST["total_price"],
- //     'discount' => $_POST["discount"],
-
-	//);
      $user_data=array(
      	'name' => $this->input->post('name'),
      	'email'=> $this->input->post('email'),
      	'phone'=> $this->input->post('phone1_number'),
      	'country'=> $this->input->post('country'),
      	'phone_country'=> $this->input->post('phone1_country'),
-     	'password'=> 1
+     	'password'=> 'my123'
 
      
 
      );
-//  $order_data=array(
-// 'topic'=> $this->input->podt('topic'),
-// 'doctype'=> $this->input->podt('doctype'),
-// 'urgency'=> $this->input->podt('urgency')
+    $id= $this->order_model->insert('user',$user_data); 
+        
 
-//  );
 
-	$this->order_model->insert('users',$user_data); 
+
+ $order_data=array(
+'topic'=> $this->input->post('topic'),
+'doctype'=> $this->input->post('doctype'),
+'ppt_req'=> implode(',',$_POST['count_additional']),
+'no_of_pages'=> $this->input->post('numpages'),
+'level'=> $this->input->post('wrlevel'),
+'sub_area'=> $this->input->post('order_category'),
+'single_spacing'=> $this->input->post('o_interval'),
+'urgency'=> $this->input->post('urgency'),
+'additional_info'=>  implode(',',$_POST['additional']),
+'academic_level'=> $this->input->post('academic_level'),
+'style'=> $this->input->post('style'),
+'writer_id'=> implode(',',$_POST['preff_wr_id']),
+'user_id'=> $id,
+'total_price'=> 55,
+'discount'=> 2
+ );
+
+	
+	$this->order_model->insert('orders',$order_data); 
 	    
     }
 
